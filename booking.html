@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book a Discovery Call — Alexander Vikov</title>
+<meta name="description" content="Request your free 30-minute discovery call with Alexander Vikov. No pitch. Just clarity on where you are and what's next." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,30..100,0..1;1,9..144,300..700,30..100,0..1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" aria-label="Alexander Vikov — Home">
+      <img src="assets/logo.svg" alt="Alexander Vikov — Financial Coaching" class="nav-logo" />
+    </a>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#story">About</a></li>
+        <li><a href="booking.html">Book a Call</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="booking.html" class="btn btn-lime">Book Discovery Call <span class="btn-arrow">→</span></a>
+      <button class="nav-toggle btn-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="booking-hero">
+  <div class="container reveal">
+    <span class="eyebrow">Free Discovery Call</span>
+    <h1>Let's see if I'm <em class="italic-accent">the right person</em> to help you.</h1>
+    <p>
+      30 minutes. No pitch. We'll talk through where you are, where you want to be, and whether one of my programs is the right fit. If it's not, I'll point you toward something that is.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== BOOKING ===================== -->
+<section class="booking-section">
+  <div class="container">
+    <div class="booking-grid">
+
+      <!-- ===== FORM ===== -->
+      <div>
+        <div class="form-success" id="form-success" role="status" aria-live="polite">
+          <strong>Request received — thank you.</strong>
+          I'll personally review your responses and reach out within 24 hours to schedule your call. Check your inbox (and your spam folder, just in case).
+        </div>
+
+        <form class="form" id="booking-form" novalidate>
+          <div class="form-row">
+            <div class="field" data-field="fullName">
+              <label for="fullName">Full Name <span class="req">*</span></label>
+              <input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="Jane Doe" required />
+              <span class="error-msg"></span>
+            </div>
+            <div class="field" data-field="email">
+              <label for="email">Email <span class="req">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@company.com" required />
+              <span class="error-msg"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field" data-field="phone">
+              <label for="phone">Phone <span class="opt">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000" />
+              <span class="error-msg"></span>
+            </div>
+            <div class="field" data-field="service">
+              <label for="service">I'm most curious about <span class="req">*</span></label>
+              <select id="service" name="service" required>
+                <option value="">Choose one…</option>
+                <option value="one-on-one">1-on-1 Coaching</option>
+                <option value="group">Group Coaching</option>
+                <option value="enterprise">Enterprise / Team</option>
+                <option value="speaking">Speaking Engagement</option>
+                <option value="not-sure">Honestly, not sure yet</option>
+              </select>
+              <span class="error-msg"></span>
+            </div>
+          </div>
+
+          <div class="field" data-field="goal">
+            <label for="goal">What's your biggest financial goal right now? <span class="req">*</span></label>
+            <textarea id="goal" name="goal" rows="3" placeholder="e.g. Save my first $100K in 3 years, retire by 55, get out of $40K debt without losing my mind…" required></textarea>
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="field" data-field="blocker">
+            <label for="blocker">What feels like it's holding you back? <span class="req">*</span></label>
+            <textarea id="blocker" name="blocker" rows="3" placeholder="No plan, conflicting advice, lifestyle creep, fear of investing — be honest, this is just for us." required></textarea>
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="field" data-field="referral">
+            <label for="referral">How did you hear about me? <span class="opt">(optional)</span></label>
+            <input id="referral" name="referral" type="text" placeholder="LinkedIn, a friend, podcast, conference…" />
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">Request My Discovery Call <span class="btn-arrow">→</span></button>
+            <p class="form-disclaimer">
+              By submitting, you agree to be contacted about your discovery call. Your information stays with me — no sharing, no spam, no nonsense.
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <!-- ===== ASIDE ===== -->
+      <aside class="booking-aside reveal">
+        <div class="aside-card">
+          <h3>What to expect</h3>
+          <ul class="expect-list">
+            <li>
+              <span class="step">1</span>
+              <div>
+                <strong>You submit this form</strong>
+                <span>Tells me what you're working on so I don't waste your time on the call.</span>
+              </div>
+            </li>
+            <li>
+              <span class="step">2</span>
+              <div>
+                <strong>I respond within 24 hours</strong>
+                <span>Personally — not a calendar bot. We pick a time that works for both of us.</span>
+              </div>
+            </li>
+            <li>
+              <span class="step">3</span>
+              <div>
+                <strong>30-minute call on Zoom</strong>
+                <span>We discuss where you are, where you want to be, and whether I can help you get there.</span>
+              </div>
+            </li>
+            <li>
+              <span class="step">4</span>
+              <div>
+                <strong>Honest answer either way</strong>
+                <span>If we're a fit, I'll tell you the next step. If not, I'll point you somewhere better.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="testi-card">
+          <blockquote>
+            "I came in expecting a sales pitch. I left with a one-page plan I'd been trying to write for two years. Even if I never hire him, that call paid for itself."
+          </blockquote>
+          <cite>— Marcus T., Software Engineer · [Sample testimonial]</cite>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="mark">AV</span>
+          Alexander Vikov
+        </div>
+        <p>Financial coaching for working professionals who refuse to retire on regret.</p>
+      </div>
+      <div>
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="index.html#story">About</a></li>
+          <li><a href="booking.html">Book a Call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@alexandervikov.com">hello@alexandervikov.com</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© 2026 Alexander Vikov. All rights reserved.</span>
+      <span>Educational content only — not personalized financial advice.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>
