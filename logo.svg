@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" role="img" aria-label="Alexander Vikov — Financial Coaching">
+  <!-- Lime square mark with AV monogram -->
+  <rect x="0" y="3" width="50" height="50" fill="#D3D645" rx="2"/>
+  <text x="25" y="36" font-family="'Fraunces', Georgia, serif" font-size="22" font-weight="600"
+        text-anchor="middle" fill="#0F1729" letter-spacing="-0.5">AV</text>
+  <!-- Tiny accent dot inside square -->
+  <circle cx="42" cy="11" r="1.6" fill="#0F1729"/>
+  <!-- Wordmark -->
+  <text x="62" y="29" font-family="'Fraunces', Georgia, serif" font-size="17" font-weight="500"
+        fill="#0F1729" letter-spacing="0.2">Alexander Vikov</text>
+  <text x="62" y="46" font-family="'Manrope', system-ui, sans-serif" font-size="8" font-weight="600"
+        fill="#0F1729" letter-spacing="2.4" opacity="0.62">FINANCIAL COACHING</text>
+</svg>
