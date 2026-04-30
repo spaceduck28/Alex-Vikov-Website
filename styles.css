@@ -710,8 +710,11 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   margin: 20px 0 32px;
   max-width: 50ch;
 }
-.cta-band-actions { display: flex; flex-wrap: wrap; gap: 14px; justify-self: end; }
+.cta-band-actions { display: flex; flex-wrap: wrap; gap: 14px; justify-self: center; align-self: center;  margin-right: 180px;}
 @media (max-width: 720px) { .cta-band-actions { justify-self: start; } }
+
+.cta-band-actions .btn { padding: 24px 44px; font-size: 17px; }
+
 
 /* ===========================
    BOOKING PAGE
@@ -902,9 +905,9 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
    =========================== */
 
 .footer {
-  background: var(--color-navy);
-  color: rgba(248,246,240,0.7);
-  padding: 64px 0 32px;
+  background: var(--color-#F8F6F0);
+  color: var(--color-navy-soft);
+  padding: 64px clamp(24px, 5vw, 64px) 100px; 
 }
 .footer-grid {
   display: grid;
@@ -916,7 +919,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 
 .footer-brand p {
   margin-top: 18px;
-  font-size: 14px;
+  font-size: 16px;
   max-width: 40ch;
   line-height: 1.55;
 }
@@ -932,7 +935,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .footer ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
 .footer ul a {
   font-size: 14px;
-  color: rgba(248,246,240,0.7);
+  color: var(--color-navy-soft);
   transition: color 0.18s ease;
 }
 .footer ul a:hover { color: var(--color-lime); }
@@ -953,19 +956,19 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   align-items: center;
   gap: 12px;
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
-  color: var(--color-cream);
+  color: var(--color-navy-soft);
 }
 .footer-logo .mark {
-  width: 36px; height: 36px;
+  width: 40px; height: 40px;
   background: var(--color-lime);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-navy);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* ===========================
