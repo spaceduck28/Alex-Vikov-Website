@@ -602,12 +602,39 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 
 .services-hero {
   padding: clamp(72px, 8vw, 110px) 0 clamp(48px, 6vw, 72px);
+  background-color:#0F1729
 }
 .services-hero h1 {
-  max-width: 14ch;
+  max-width: 18ch;
   margin: 24px 0 28px;
+  color:#D1D5DB
 }
-.services-hero p { max-width: 60ch; }
+.services-hero p { max-width: 60ch; 
+color:#D1D5DB
+}
+
+#services-eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color:#D1D5DB;
+  opacity: 0.7;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#services-eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background-color: #D1D5DB;
+  opacity: 0.5;
+}
+
 
 .svc-detail {
   border-top: 1px solid var(--color-line);
@@ -671,6 +698,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   font-weight: 600;
 }
 
+
 /* ===========================
    FINAL CTA BAND
    =========================== */
@@ -723,12 +751,22 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .booking-hero {
   padding: clamp(64px, 8vw, 96px) 0 clamp(40px, 5vw, 64px);
   text-align: left;
+  background-color: #0F1729;
 }
 .booking-hero h1 {
   max-width: 16ch;
   margin: 24px 0 24px;
+  color: #D1D5DB;
 }
-.booking-hero p { max-width: 60ch; font-size: 19px; color: var(--color-navy-soft); }
+.booking-hero p { max-width: 60ch; font-size: 19px; color: #D1D5DB;); }
+
+.booking-hero .eyebrow {
+  color: #D1D5DB;
+}
+
+.booking-hero .eyebrow::before {
+  background-color: #D1D5DB;
+}
 
 .booking-section {
   padding: clamp(40px, 5vw, 72px) 0 clamp(72px, 9vw, 120px);
