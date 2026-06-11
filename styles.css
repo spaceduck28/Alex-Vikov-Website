@@ -1,9 +1,5 @@
-/* =========================================================
-   ALEXANDER VIKOV — Financial Coaching
-   Editorial finance journal aesthetic
-   Palette: lime accent (#D3D645), deep navy (#0F1729), warm cream (#F8F6F0)
-   Typography: Fraunces (display serif) + Manrope (body sans)
-   ========================================================= */
+/* Palette: lime accent (#D3D645), deep navy (#0F1729), warm cream (#F8F6F0)
+   Typography: Fraunces (display serif) + Manrope (body sans) */
 
 :root {
   --color-lime: #D3D645;
@@ -52,7 +48,7 @@ a { color: inherit; text-decoration: none; }
 
 button { font-family: inherit; cursor: pointer; border: none; background: none; }
 
-/* ----- Typography utilities ----- */
+/* Typography utilities */
 
 .eyebrow {
   font-family: var(--font-body);
@@ -105,7 +101,7 @@ p.lead {
   padding: 0 2px;
 }
 
-/* ----- Layout ----- */
+/* Layout */
 
 .container {
   width: 100%;
@@ -116,7 +112,7 @@ p.lead {
 
 section { padding: clamp(64px, 9vw, 120px) 0; }
 
-/* ----- Buttons ----- */
+/* Buttons */
 
 .btn {
   display: inline-flex;
@@ -172,9 +168,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 }
 .text-link:hover { gap: 12px; }
 
-/* ===========================
-   NAVIGATION
-   =========================== */
+/* Navigation */
 
 .nav {
   position: sticky;
@@ -264,9 +258,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   .nav-cta .btn:not(.btn-toggle) { display: none; }
 }
 
-/* ===========================
-   HERO (homepage)
-   =========================== */
+/* HERO (homepage) */
 
 .hero {
   padding-top: clamp(48px, 7vw, 88px);
@@ -372,9 +364,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 }
 @media (max-width: 880px) { .hero-photo-wrap { max-width: 100%; margin-left: 0; } }
 
-/* ===========================
-   AS FEATURED IN strip
-   =========================== */
+/* Trusted By strip */
 
 .featured {
   padding: 40px 0;
@@ -423,9 +413,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .featured-logo:hover { opacity: 1; }
 .featured-logo.bold { font-weight: 700; }
 
-/* ===========================
-   STORY
-   =========================== */
+/* STORY */
 
 .story {
   background: var(--color-cream);
@@ -492,9 +480,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   background: var(--color-white);
 }
 
-/* ===========================
-   VALUE PILLARS
-   =========================== */
+/* VALUE PILLARS */
 
 .pillars {
   background: var(--color-navy);
@@ -541,9 +527,7 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
   color: rgba(248,246,240,0.72);
 }
 
-/* ===========================
-   SERVICES PREVIEW (homepage)
-   =========================== */
+/* SERVICES PREVIEW (homepage) */
 
 .services-preview h2 { margin-bottom: 16px; }
 .services-preview-intro { margin-bottom: 56px; max-width: 56ch; }
@@ -697,9 +681,7 @@ color:#D1D5DB
 }
 
 
-/* ===========================
-   FINAL CTA BAND
-   =========================== */
+/* FINAL CTA BAND */
 
 .cta-band {
   background: var(--color-navy);
@@ -742,9 +724,7 @@ color:#D1D5DB
 .cta-band-actions .btn { padding: 24px 44px; font-size: 17px; }
 
 
-/* ===========================
-   BOOKING PAGE
-   =========================== */
+/* BOOKING PAGE */
 
 .booking-hero {
   padding: clamp(64px, 8vw, 96px) 0 clamp(40px, 5vw, 64px);
@@ -937,9 +917,7 @@ color:#D1D5DB
   font-weight: 500;
 }
 
-/* ===========================
-   FOOTER
-   =========================== */
+/* FOOTER */
 
 .footer {
   background: var(--color-cream);
@@ -1008,9 +986,7 @@ color:#D1D5DB
   font-size: 18px;
 }
 
-/* ===========================
-   SCROLL REVEAL ANIMATION
-   =========================== */
+/* SCROLL REVEAL ANIMATION */
 
 .reveal {
   opacity: 0;
